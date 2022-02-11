@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EjercicioBaseDatoSQLite</string>
+    <string name="Titulo">Base de Datos SQLite</string>
+    <string name="Boton">Crear Bd SQLite</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="botonGuardar">Guardar</string>
+    <string name="crearRegistro">Nuevo Registro</string>
+    <string name="labelnombre">Nombre</string>
+    <string name="labeledad">Edad</string>
+    <string name="TxT_Email">Email usuario</string>
+    <string name="TxT_Password">Contraseña</string>
+    <string name="BT_Ingresar">Ingresar</string>
+    <string name="TxT_Mensaje">Mensaje</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/labelNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/labelnombre"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/txtNombreVer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/labelNombre"
+        android:textSize="24sp"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/labelEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/labeledad"
+
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/txtEdadVer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="24sp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:labelFor="@+id/labelEdad"/>
+
+    <Button
+        android:id="@+id/btGuardarVer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botonGuardar"
+        android:textSize="24sp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:clickable="true"
+        android:src="@drawable/ic_edit_datos"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/faEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+</LinearLayout>

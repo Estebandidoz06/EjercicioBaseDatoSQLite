@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/esteb/Desktop/EjercicioBaseDatoSQLite/app/src/main/res/layout/activity_logeo.xml" value="0.33" />
+        <entry key="..\:/Users/esteb/Desktop/EjercicioBaseDatoSQLite/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/esteb/Desktop/EjercicioBaseDatoSQLite/app/src/main/res/layout/activity_ver.xml" value="0.25" />
+        <entry key="..\:/Users/esteb/Desktop/EjercicioBaseDatoSQLite/app/src/main/res/menu/menu_primcipal.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_ver.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_vista_contactos.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/lista_item_contacto.xml" value="0.11808118081180811" />
+        <entry key="app/src/main/res/menu/menu_primcipal.xml" value="0.335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
